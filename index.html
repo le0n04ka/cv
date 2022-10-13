@@ -5,97 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Natalie CV</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img
-      src="https://vstup.chem.knu.ua/sites/default/files/slide97.jpg"
-      alt="666"
-      width="450"
-      height="250"
-    />
-    <h1>Наталія Мірошник</h1>
-    <em>
-      <p>Я - дипломований <strong>хімік!!!</strong></p></em
-    >
+    <div class="container">
+      <div class="info">
+        <img
+          src="https://vstup.chem.knu.ua/sites/default/files/slide97.jpg"
+          alt="666"
+          class="photo"
+        />
+        <h1>Наталія Мірошник</h1>
 
-    <hr />
-    <h2>Соціальні мережі</h2>
-    <ul type="disc">
-      <li>
+        <p>Я - дипломований <strong>хімік!!!</strong></p>
+      </div>
+      <div class="social">
+        <h4>Соціальні мережі</h4>
+
         <a
           href="https://www.pm-international.com/uk/uk/?TP=40577176&gclid=Cj0KCQjwy5maBhDdARIsAMxrkw3-xG_hYFbNPWAWcGsuEbvQQkvVwhv8LYJ0Ui2sS-F4VEPIyDOrHW0aAso0EALw_wcB"
           target="_blank"
         >
           Telegram</a
         >
-      </li>
-      <li>
+        <br />
         <a
           href="https://www.pmebusiness.com/?action=product&p_id=55223&cid=220&TP=304552&lang=ru"
           target="_blank"
         >
           Instagram</a
         >
-      </li>
-    </ul>
-    <hr />
-    <h2>Хобі</h2>
-    <ol>
-      <li>Люблю їздити на пари на 8:20</li>
-      <li>Переписувати конспекти</li>
-      <li>Сидіти на парах з увімкненою камерою</li>
-      <li>Робити лаби у ворді</li>
-    </ol>
-    <hr />
-    <h2>Досвід роботи - більше 156302-х років!</h2>
-    <table border="3" align="left">
-      <tr>
-        <th>Компанія</th>
-        <th>Посада</th>
-        <th>Роки</th>
-      </tr>
+      </div>
 
-      <tr>
-        <td>ТОВ"Фармак"</td>
-        <td>Гендиректор</td>
-        <td>1292-1394</td>
-      </tr>
-      <tr>
-        <td>ТОВ"Юрія-Фарм"</td>
-        <td>Володарка контрольного пакету акцій</td>
-        <td>1494-1798</td>
-      </tr>
-      <tr>
-        <td>Хімічний факультет КНУ</td>
-        <td>Студентка</td>
-        <td>2018-2024</td>
-      </tr>
-    </table>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <hr />
-    <h2>Зворотній зв'язок</h2>
-    <form action="/">
-      <label for="name"> Your name</label>
-      <input type="text" id="name" placeholder="YOUR NAMEE!!!!" />
-    </form>
-    <form>
-      <label for="email">Email</label>
-      <input type="email" id="email" />
-    </form>
-    <form>
-      <label for="text">СМС найкращому фронтенду</label>
-      <br />
-      <textarea name="text" id="" cols="40" rows="5"></textarea>
-      <br />
-      <input type="submit" value="Жмякс сюди!" />
-      <br />
-      <hr />
-    </form>
+      <div class="card bg-yellow">
+        <h2>Хобі</h2>
+        <ol class="list">
+          <li>Люблю їздити на пари на 8:20</li>
+          <li>Переписувати конспекти</li>
+          <li>Сидіти на парах з увімкненою камерою</li>
+          <li>Робити лаби у ворді</li>
+        </ol>
+      </div>
+
+      <div class="card bg-green">
+        <h2>Досвід роботи - більше 800 років!</h2>
+        <table class="table">
+          <tr>
+            <th>Компанія</th>
+            <th>Посада</th>
+            <th>Роки</th>
+          </tr>
+
+          <tr>
+            <td>ТОВ"Фармак"</td>
+            <td>Гендиректор</td>
+            <td>1292-1394</td>
+          </tr>
+          <tr>
+            <td>ТОВ"Юрія-Фарм"</td>
+            <td>Володарка контрольного пакету акцій</td>
+            <td>1494-1798</td>
+          </tr>
+          <tr>
+            <td>Хімічний факультет КНУ</td>
+            <td>Студентка</td>
+            <td>2018-2024</td>
+          </tr>
+        </table>
+      </div>
+      <div class="contact">
+        <div class="card bg-purple">
+          <h2>Зворотній зв'язок</h2>
+          <form action="/">
+            <div class="form-group"> <label for="name"> Your name</label>
+
+            <input type="text" id="name" placeholder="YOUR NAMEE!!!!" />
+          </form></div>
+           <div class="form-group">
+              <form>
+              <label for="email">Email</label>
+              <input type="email" id="email" />
+          </form>
+                </div>
+          <div class="form-group">
+             <form>
+            <label for="text">СМС найкращому фронтенду</label>
+          
+            <textarea name="text" id="" cols="40" rows="5"></textarea>
+            <div> <input class="btn" type="submit" value="Жмякс сюди!" />
+            </div>
+           
+          </div>
+                   
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

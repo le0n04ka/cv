@@ -1,0 +1,117 @@
+body {
+  color: #000b0e;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.photo {
+  width: 400px;
+  height: 250px;
+  border-radius: 70px;
+  background-color: #000b0e;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 30);
+}
+.info p {
+  color: #86898f;
+  font-style: italic;
+
+  letter-spacing: 5px;
+}
+.social {
+  background: rgb(232, 188, 222);
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+a {
+  color: #000b0e;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: black;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+.bg-yellow {
+  background: #fff9dc;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-purple {
+  background: #ffe5e5;
+}
+.card h2 {
+  margin-bottom: 10px;
+}
+.list {
+  padding: 0 20px;
+}
+.list li {
+  color: rgb(0, 0, 0);
+}
+.table {
+  width: 100%;
+}
+.table td {
+  padding-bottom: 10px;
+}
+/*.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: gray;
+}
+.table tr:nth-child(odd) {
+  background: #ecdfd7dc;
+}*/
+.contact h2 {
+  text-align: center;
+}
+.form-group label {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+}
+.form-group input {
+  text-align: center;
+  margin-left: 100px;
+  width: 75%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: #000000;
+  padding: 10px 0 10px;
+  font-family: inherit;
+}
+.form-group textarea {
+  text-align: center;
+
+  margin-left: 100px;
+  width: 75%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: #000000;
+  padding: 10px 0 10px;
+  font-family: inherit;
+}
+.btn {
+  background: rgb(255, 255, 255);
+  padding: 15px 20px;
+  font-family: inherit;
+  border: none;
+  color: rgb(221, 41, 41);
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+}
